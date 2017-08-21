@@ -3,6 +3,8 @@ class myNb:
         self.cProb = {}
         self.cCondProb = {}
     def fit(self, X_train, y_train):
+        import numpy as np
+
         # 生还与否的概率
         t = len(y_train)
         # 生还和死者总数
